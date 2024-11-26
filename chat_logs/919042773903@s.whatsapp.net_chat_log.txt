@@ -1,0 +1,4 @@
+CHAT_LOG: 2024/10/22 19:37:21 [2024-10-22 19:37:21] User (919042773903@s.whatsapp.net): [Location Message]
+CHAT_LOG: 2024/10/22 19:37:21 [2024-10-22 19:37:21] Location URL (919042773903@s.whatsapp.net): https://www.google.com/maps?q=11.061854,77.002291
+CHAT_LOG: 2024/10/22 19:37:21 [2024-10-22 19:37:21] Bot (919042773903@s.whatsapp.net): Hello there! How can I assist you today?
+CHAT_LOG: 2024/10/22 19:38:13 [2024-10-22 19:38:13] User (919042773903@s.whatsapp.net): [Image Message]

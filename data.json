@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "id": 1,
+      "name": "greeting",
+      "examples": [
+        "Hello",
+        "Hi there",
+        "Good morning",
+        "Hey",
+        "What's up?",
+        "How are you?",
+        "Greetings!"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Good to see you! What do you need?",
+        "Greetings! How may I help you today?"
+      ],
+      "follow_up_question": "ask_more"
+    },
+    {
+      "id": 2,
+      "name": "report_incident",
+      "examples": [
+        "I want to report an incident",
+        "There was an issue at the campus",
+        "I saw something suspicious",
+        "Help, I need to report a crime",
+        "I need to file a report",
+        "Something happened here",
+        "I'd like to report a theft"
+      ],
+      "responses": [
+        "Please provide details about the incident.",
+        "Can you describe what you saw?",
+        "What happened? Please share more information.",
+        "We take incidents seriously. Please tell me more."
+      ],
+      "follow_up_question": "location_info"
+    },
+    {
+      "id": 3,
+      "name": "emergency_contact",
+      "examples": [
+        "Who should I contact in an emergency?",
+        "What is the emergency contact number?",
+        "I need help immediately",
+        "Is there a number for emergencies?",
+        "Who do I call for urgent help?",
+        "What should I do in case of an emergency?"
+      ],
+      "responses": [
+        "In case of an emergency, please contact campus security at 911 or the designated emergency number.",
+        "For emergencies, dial the campus security hotline or call 911.",
+        "Always call 911 for immediate assistance."
+      ],
+      "follow_up_question": "other_services"
+    },
+    {
+      "id": 4,
+      "name": "safety_tips",
+      "examples": [
+        "What are some safety tips?",
+        "How can I stay safe on campus?",
+        "Give me safety advice",
+        "What should I do to be safe?",
+        "Any tips for personal safety?",
+        "How do I protect myself?"
+      ],
+      "responses": [
+        "Always be aware of your surroundings. Avoid walking alone at night.",
+        "Use well-lit paths and stay in populated areas.",
+        "Trust your instincts; if something feels off, seek help.",
+        "Consider joining a safety escort program if available."
+      ],
+      "follow_up_question": "safety_programs"
+    },
+    {
+      "id": 5,
+      "name": "lost_item",
+      "examples": [
+        "I lost my wallet",
+        "I can't find my phone",
+        "Help, I lost something",
+        "My item is missing",
+        "I can't locate my keys",
+        "I lost my backpack"
+      ],
+      "responses": [
+        "Please describe the item you lost and where you last saw it.",
+        "Can you provide details about the lost item?",
+        "What did you lose, and where did you last have it?",
+        "Let me know if you need assistance with the lost and found."
+      ],
+      "follow_up_question": "last_seen_info"
+    },
+    {
+      "id": 6,
+      "name": "access_control",
+      "examples": [
+        "How do I access restricted areas?",
+        "What are the access rules?",
+        "Can I enter the building after hours?",
+        "Who can access certain areas?",
+        "What are the guidelines for entering restricted zones?",
+        "Are there any ID requirements?"
+      ],
+      "responses": [
+        "Access to restricted areas is granted only to authorized personnel.",
+        "Please check with security for access permissions.",
+        "You may need a special ID or authorization to enter.",
+        "Contact the office for further access instructions."
+      ],
+      "follow_up_question": "access_help"
+    },
+    {
+      "id": 7,
+      "name": "general_inquiry",
+      "examples": [
+        "Tell me about campus security",
+        "What services do you provide?",
+        "How can I reach you?",
+        "What can you help me with?",
+        "What security measures are in place?",
+        "Can you explain your role?"
+      ],
+      "responses": [
+        "We provide various safety services including patrolling, emergency response, and safety awareness.",
+        "You can reach campus security at the main office or through our hotline.",
+        "We ensure the safety of students and staff on campus through regular monitoring."
+      ],
+      "follow_up_question": "specific_service"
+    }
+  ],
+  "follow_up_responses": {
+    "ask_more": "Is there anything specific you want to ask?",
+    "location_info": "Can you specify the location of the incident?",
+    "other_services": "Would you like to know about other emergency services?",
+    "safety_programs": "Do you want more information on campus safety programs?",
+    "last_seen_info": "When did you last see the item?",
+    "access_help": "Do you need help obtaining access authorization?",
+    "specific_service": "Is there a specific service you want to know more about?"
+  }
+}
